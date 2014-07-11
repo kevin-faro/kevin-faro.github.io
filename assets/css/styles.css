@@ -2,3 +2,23 @@
   padding-top:40px;
   background-image: url('/assets/images/pattern-lightgray.jpg');
 }
+.edu {
+  padding-top:40px;
+  background-image: url('/assets/images/pattern-darkgray.jpg');
+}
+.skills {
+  padding-top:40px;
+  background-image: url('/assets/images/pattern-yellow.jpg');
+}
+.repo {
+  padding-top:40px;
+  background-image: url('/assets/images/pattern-teal.jpg');
+}
+.company {
+  padding-top:40px;
+  background-image: url('/assets/images/pattern-lightgray.jpg');
+}
+.links {
+  padding-top:40px;
+  background-image: url('/assets/images/pattern-darkgray.jpg');
+}
