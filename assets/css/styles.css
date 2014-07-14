@@ -1,25 +1,24 @@
-.about {
+.light {
   padding-top:40px;
   background-image: url('/assets/images/pattern-lightgray.jpg');
   color: black;
 }
-.edu {
+.dark {
   background-image: url('/assets/images/pattern-darkgray.jpg');
   color: white;
 }
-.skills {
+.yellow {
   background-image: url('/assets/images/pattern-yellow.jpg');
   color: black;
 }
-.repo {
+.teal {
   background-image: url('/assets/images/pattern-teal.jpg');
   color: black;
 }
-.company {
-  background-image: url('/assets/images/pattern-lightgray.jpg');
-  color: black;
+.skill {
+  float: left;
+  padding: 5px;
 }
-.links {
-  background-image: url('/assets/images/pattern-darkgray.jpg');
-  color: white;
+.lpad {
+  margin: 0 0 0 5px;
 }
