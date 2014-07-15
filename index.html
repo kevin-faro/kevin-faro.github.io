@@ -85,22 +85,22 @@ category: pages
 
   <div class="container">
     <h1>Skills</h1>
-      <div class="label label-success">Java<span class="badge alert-success lpad">10Y</span></div>
-      <div class="label label-success">Scala<span class="badge alert-success lpad">1Y</span></div>
-      <div class="label label-primary">Python<span class="badge alert-info lpad">3Y</span></div>
-      <div class="label label-info">Ruby<span class="badge alert-info lpad">1Y</span></div>
-      <div class="label label-success">Map/Reduce<span class="badge alert-success lpad">4Y</span></div>
-      <div class="label label-info">Pig<span class="badge alert-info lpad">1Y</span></div>
-      <div class="label label-info">Scalding<span class="badge alert-info lpad">1Y</span></div>
-      <div class="label label-success">Accumulo<span class="badge alert-success lpad">4Y</span></div>
+      <div class="label label-success">Java<span class="badge alert-success lpad datediff">06/01/2003</span></div>
+      <div class="label label-success">Scala<span class="badge alert-success lpad datediff">05/01/2013</span></div>
+      <div class="label label-primary">Python<span class="badge alert-info lpad datediff">01/01/2010</span></div>
+      <div class="label label-info">Ruby<span class="badge alert-info lpad datediff">11/01/2012</span></div>
+      <div class="label label-success">Map/Reduce<span class="badge alert-success lpad datediff">01/01/2010</span></div>
+      <div class="label label-info">Pig<span class="badge alert-info lpad">6M</span></div>
+      <div class="label label-info">Scalding<span class="badge alert-info lpad datediff">06/01/2014</span></div>
+      <div class="label label-success">Accumulo<span class="badge alert-success lpad datediff">01/01/2010</span></div>
       <div class="label label-info">HBase<span class="badge alert-info lpad">1Y</span></div>
       <div class="label label-info">MongoDB<span class="badge alert-info lpad">1Y</span></div>
       <div class="label label-info">Redis<span class="badge alert-info lpad">1Y</span></div>
-      <div class="label label-success">Linux<span class="badge alert-success lpad">8Y</span></div>
-      <div class="label label-success">Git<span class="badge alert-success lpad">3Y</span></div>
+      <div class="label label-success">Linux<span class="badge alert-success lpad datediff">01/01/2006</span></div>
+      <div class="label label-success">Git<span class="badge alert-success lpad datediff">05/01/2012</span></div>
       <div class="label label-info">Android<span class="badge alert-info lpad">3M</span></div>
-      <div class="label label-info">Docker<span class="badge alert-info lpad">1M</span></div>
-      <div class="label label-info">Mesos<span class="badge alert-info lpad">1M</span></div>
+      <div class="label label-info">Docker<span class="badge alert-info lpad datediff">07/01/2014</span></div>
+      <div class="label label-info">Mesos<span class="badge alert-info lpad datediff">07/01/2014</span></div>
       <div class="label label-primary">RDF/SPARQL<span class="badge alert-info lpad">1Y</span></div>
   </div>
 
@@ -185,5 +185,11 @@ category: pages
   </div>
 
 </div>
+
+<script>
+  $('.datediff').each(function(i, obj) {
+    $(obj).text(timeSince($(obj).text()));
+  });
+</script>
 
 {% include footer.html %}
